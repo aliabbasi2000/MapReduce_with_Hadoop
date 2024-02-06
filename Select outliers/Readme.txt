@@ -1,3 +1,9 @@
+Details of Problem:
+▪ Input: a collection of (structured) textual files containing the daily value of PM10 for a set of sensors
+   Each line of the files has the following format: sensorId,date\tPM10 value (μg/m3)\n
+▪ Output: the records with a PM10 value below a user provided threshold (the threshold is an argument of the program)
+
+
 We have an interface to connect to HDFS server.
 The interface is https://jupyter.polito.it/. It is our Gateway Server to connect BigData@Polito cluster.
 We have an access to Reserved 1 CPU threads/8 GB mem, max 8 CPU threads and 24 GB memory.
