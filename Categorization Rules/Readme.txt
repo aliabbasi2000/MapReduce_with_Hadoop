@@ -1,3 +1,18 @@
+Problem Details:
+ Input: 
+▪ A large textual file containing a set of records
+▪ Each line contains the information about one single user
+▪ Each line has the format: UserId,Name,Surname,Gender,YearOfBirth,City,Education
+▪ A small file with a set of business rules that are used to assign each user to a category
+▪ Each line contains a business rule with the format: Gender=<value> and YearOfBirth=<value> -> Category
+▪ Rules are mutually exclusive
+ Output:
+▪ One record for each user with the following format
+▪ The original information about the user plus the category assigned to the user by means of the business rules
+▪ Since the rules are mutually exclusive, there is only one rule applicable for each user
+▪ If no rules is applicable/satisfied by a user, assign the user to the “Unknown” category
+
+
 We have an interface to connect to HDFS server.
 The interface is https://jupyter.polito.it/. It is our Gateway Server to connect BigData@Polito cluster.
 We have an access to Reserved 1 CPU threads/8 GB mem, max 8 CPU threads and 24 GB memory.
