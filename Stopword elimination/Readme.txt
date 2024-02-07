@@ -1,3 +1,12 @@
+Details of problem:
+
+▪ Input: 
+ - A large textual file containing one sentence per line
+ - A small file containing a set of stopwords (One stopword per line)
+▪ Output: 
+ - A textual file containing the same sentences of the large input file without the words appearing in the small file
+ - The order of the sentences in the output file can be different from the order of the sentences in the input file
+
 We have an interface to connect to HDFS server.
 The interface is https://jupyter.polito.it/. It is our Gateway Server to connect BigData@Polito cluster.
 We have an access to Reserved 1 CPU threads/8 GB mem, max 8 CPU threads and 24 GB memory.
